@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DotNetSoEasy.Core\DotNetSoEasy.Core.csproj" />
+    <ProjectReference Include="..\DotNetSoEasy.Sharedkernel\DotNetSoEasy.Sharedkernel.csproj" />
+    <ProjectReference Include="..\DotNetSoEasy.UseCases\DotNetSoEasy.UseCases.csproj" />
+  </ItemGroup>
+
+</Project>
